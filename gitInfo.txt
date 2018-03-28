@@ -1,0 +1,18 @@
+//git install
+git init
+
+create .gitignore
+    write:
+        /node_modules
+        /dist
+        /.idea
+        /npm-debug.log
+
+//add all files
+git add .
+
+//commit the files
+git commit -m "Info: initial commit, setup finished"
+
+//extra: create branchs
+git checkout -b 01-setup
