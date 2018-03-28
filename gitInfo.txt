@@ -17,4 +17,7 @@ git commit -m "Info: initial commit, setup finished"
 //extra: create branchs
 git checkout -b 01-setup
 
+//. -> means the current directory
+git clone https://github.com/miguelfernando55/Academind-ReactJS.git .
+
 git remote add origin https://github.com/miguelfernando55/Academind-ReactJS.git
